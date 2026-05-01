@@ -22,7 +22,7 @@ try:
     SENDER_PASSWORD = st.secrets["GMAIL_PASSWORD"]
 except:
     # Agar aap abhi local chala rahe hain to ye error nahi dega
-    SENDER_EMAIL = "apna_email@gmail.com" 
+    SENDER_EMAIL = "apnashivamsingh@gmail.com" 
     SENDER_PASSWORD = "xxxx xxxx xxxx xxxx"
 
 # Photo ka path (GitHub par upload karne ke baad ye likhna)
